@@ -11,13 +11,16 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Yuduan.Quartz.DependencyInjection")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Yuduan Network Technology Co., Ltd.")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Yuduan Network")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("use Microsoft.Extensions.DependencyInjection to register Quartz.Net")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Yuduan.Quartz.DependencyInjection")]
+[assembly: System.Reflection.AssemblyProductAttribute("Yuduan Job")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Yuduan.Quartz.DependencyInjection")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/yuduannet/Yuduan.Quartz.DependencyInjection")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 

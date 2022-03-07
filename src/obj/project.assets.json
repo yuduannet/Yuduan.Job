@@ -1,6 +1,101 @@
 {
   "version": 3,
   "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Quartz/3.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1"
+        },
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Runtime.Remoting",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/Quartz.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Quartz.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        }
+      }
+    },
     ".NETStandard,Version=v2.0": {
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
         "type": "package",
@@ -861,6 +956,10 @@
     }
   },
   "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Microsoft.Extensions.DependencyInjection >= 6.0.0",
+      "Quartz >= 3.3.3"
+    ],
     ".NETStandard,Version=v2.0": [
       "Microsoft.Extensions.DependencyInjection >= 6.0.0",
       "NETStandard.Library >= 2.0.3",
@@ -880,6 +979,7 @@
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
       "outputPath": "E:\\Code\\Yuduan.Job\\src\\obj\\",
       "projectStyle": "PackageReference",
+      "crossTargeting": true,
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
@@ -889,6 +989,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
+        "net461",
         "netstandard2.0"
       ],
       "sources": {
@@ -896,6 +997,10 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "projectReferences": {}
+        },
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {}
@@ -908,6 +1013,20 @@
       }
     },
     "frameworks": {
+      "net461": {
+        "targetAlias": "net461",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "Quartz": {
+            "target": "Package",
+            "version": "[3.3.3, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      },
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
