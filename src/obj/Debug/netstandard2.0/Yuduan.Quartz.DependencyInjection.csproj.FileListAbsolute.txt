@@ -1,0 +1,10 @@
+E:\Code\Yuduan.Job\src\bin\Debug\netstandard2.0\Yuduan.Quartz.DependencyInjection.deps.json
+E:\Code\Yuduan.Job\src\bin\Debug\netstandard2.0\Yuduan.Quartz.DependencyInjection.dll
+E:\Code\Yuduan.Job\src\bin\Debug\netstandard2.0\Yuduan.Quartz.DependencyInjection.pdb
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Quartz.DependencyInjection.csproj.AssemblyReference.cache
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Quartz.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Quartz.DependencyInjection.AssemblyInfoInputs.cache
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Quartz.DependencyInjection.AssemblyInfo.cs
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Quartz.DependencyInjection.csproj.CoreCompileInputs.cache
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Quartz.DependencyInjection.dll
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Quartz.DependencyInjection.pdb

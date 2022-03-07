@@ -1,0 +1,10 @@
+E:\Code\Yuduan.Job\src\bin\Debug\netstandard2.0\Yuduan.Job.deps.json
+E:\Code\Yuduan.Job\src\bin\Debug\netstandard2.0\Yuduan.Job.dll
+E:\Code\Yuduan.Job\src\bin\Debug\netstandard2.0\Yuduan.Job.pdb
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Job.csproj.AssemblyReference.cache
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Job.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Job.AssemblyInfoInputs.cache
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Job.AssemblyInfo.cs
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Job.csproj.CoreCompileInputs.cache
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Job.dll
+E:\Code\Yuduan.Job\src\obj\Debug\netstandard2.0\Yuduan.Job.pdb
